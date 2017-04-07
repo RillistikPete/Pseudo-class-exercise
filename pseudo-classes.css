@@ -1,0 +1,14 @@
+li {
+	display: inline;
+	list-style-type: none;
+}
+
+.inline {
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.n-child section:nth-child(2n + 0) {
+	border: 1px solid red;
+}
